@@ -8,8 +8,8 @@
 **a) Install GPG:**
 
     $ brew install gpg    
-    or 
-    [for windows](https://www:ibiblio:org/shadow/pgp/install-gpg.pdf)  
+    
+[for windows](https://www:ibiblio:org/shadow/pgp/install-gpg.pdf)  
 
 **b) Generate a new GPG key:**
 
