@@ -3,7 +3,7 @@
 **1. Using GPG keys:**
 - You can find instructions on how to use GPG keys on the link below.
 
-    [GPG Keys](https://daily-dev-tips.com/posts/how-to-verify-your-commits-on-github/)
+    [Using GPG Keys](https://daily-dev-tips.com/posts/how-to-verify-your-commits-on-github/)
 
 **a) Install GPG:**
 
@@ -39,9 +39,9 @@
     $ git config --global user.signingkey [THIS_KEY_ID]
     $ git config --global commit.gpgsign true
 
-**2) Creating a custom commit message:**
+**f) Creating a custom commit message:**
 
-- a) Edit the .gitconfig file to point git to the template we are creating:
+- i) Edit the .gitconfig file to point git to the template we are creating:
 
        $ git config --global commit.template ~/.gitmessage
     
@@ -50,7 +50,7 @@
          [commit]
          template = ~/.gitmessage
 
-- b) Create a template in ~/.gitmessage file:
+- ii) Create a template in ~/.gitmessage file:
 ```
 ########50 characters############################
 Scope / Description with fix, feat (SemVer)
@@ -68,5 +68,7 @@ Note
 
        $ git commit
 
-# 2. Using SSH keys:
+**2. Using SSH keys:**
+- You can find instructions on how to use ssh keys from the link below.
+
    [Using SSH Keys](https://dev.to/pwd9000/github-commit-verification-using-ssh-2pim)
